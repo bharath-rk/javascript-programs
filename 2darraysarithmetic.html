@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <script>
+            var a = new Array(2);
+            var b = new Array(2);
+            for(i=0;i<2;i++){
+                a[i]=new Array();
+            }
+            alert("Reading 1st Matrix Elements");
+            for(i=0;i<2;i++){
+                for(j=0;j<2;j++){
+                    a[i][j]=parseInt(prompt("Enter array elements"));
+                }
+            }
+            document.writeln("1st Matrix Elements<br> ");
+            for(i=0;i<2;i++){
+                for(j=0;j<2;j++){
+                    document.writeln(a[i][j]+" ");
+                }
+                document.writeln("<br>");
+            }
+            alert("Reading 2nd Matrix Elements");
+            for(i=0;i<2;i++){
+                b[i]=new Array();
+            }
+            for(i=0;i<2;i++){
+                for(j=0;j<2;j++){
+                    b[i][j]=parseInt(prompt("Enter array elements"));
+                }
+            }
+            document.writeln("2nd Matrix Elements<br>");
+            for(i=0;i<2;i++){
+                for(j=0;j<2;j++){
+                    document.writeln(b[i][j]+" ");
+                }
+                document.writeln("<br>");
+            }
+            document.writeln("Addition of Matrix Elements<br>");
+            for(i=0;i<2;i++){
+                for(j=0;j<2;j++){
+                    document.writeln(a[i][j]+b[i][j]+" ");
+                }
+                document.writeln("<br>");
+            }
+            document.writeln("Subtraction of Matrix Elements<br>");
+            for(i=0;i<2;i++){
+                for(j=0;j<2;j++){
+                    document.writeln(a[i][j]-b[i][j]+" ");
+                }
+                document.writeln("<br>");
+            }
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

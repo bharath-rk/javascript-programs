@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <script>
+            // var a = new Array(10,20,30,40,50);
+            // var a = new Array("klu","klef","kl","covid");
+            var a = new Array();
+            var size = parseInt(prompt("Enter Size of Array"))
+            for(i=0;i<size;i++){
+                a[i] = prompt("Enter Value")
+            }
+            document.writeln(a)
+            
+            document.writeln("<br>PUSH Operation<br>")
+            a.push("covid")
+            document.writeln(a)
+            
+            document.writeln("<br>POP Operation<br>")
+            a.pop()
+            document.writeln(a)
+            
+            document.writeln("<br>Length: "+a.length)
+
+            a.sort()
+            document.writeln("<br>SORT Operation<br>")
+            document.writeln(a)
+            
+            a.reverse()
+            document.writeln("<br>REVERSE Operation<br>")
+            document.writeln(a)
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

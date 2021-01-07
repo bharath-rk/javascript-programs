@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script>
+            var a = new Array(2);
+            var b = new Array(2);
+            for(i=0;i<2;i++){
+                a[i]=new Array();
+            }
+            for(i=0;i<2;i++){
+                for(j=0;j<2;j++){
+                    a[i][j]=parseInt(prompt("Enter array elements"));
+                }
+            }
+            document.writeln("Trace of Matrix<br> ");
+            for(i=0;i<2;i++){
+                for(j=0;j<2;j++){
+                    if(i==j)
+                    document.writeln(a[j][i]+" ");
+                }
+                document.writeln("<br>");
+            }
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script>
+            var a = new Array();
+            var n;
+            n = parseInt(prompt("Enter Array Size",3))
+            
+            for(i=0;i<n;i++){
+                a[i]=parseInt(prompt("Enter array elements"))
+            }
+            var sum = 0, avg = 0;
+            for(i=0;i<n;i++){
+                sum=sum+a[i];
+            }
+            avg = sum/n;
+            document.writeln("Sum: "+sum+"<br>")
+            document.writeln("Avg: "+avg+"<br>")
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
